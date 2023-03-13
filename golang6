@@ -1,0 +1,14 @@
+Faça um algoritmo que leia o salário de um funcionário e calcule o seu novo salário com um aumento de 15%.
+
+package main
+
+import "fmt"
+
+func main() {
+	var salario float64
+	fmt.Println("Qual o seu salário?")
+	fmt.Scan(&salario)
+	var aumento = salario*0.15 + salario
+	fmt.Println("Seu salário com um aumento de 15% é", aumento)
+
+}
