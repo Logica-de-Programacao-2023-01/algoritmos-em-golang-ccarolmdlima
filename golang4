@@ -1,0 +1,20 @@
+Faça um algoritmo que leia três números reais e mostre a média ponderada entre eles, com pesos 2, 3 e 5, respectivamente.
+
+package main
+
+import "fmt"
+
+func main() {
+	var primeiro float64
+	var segundo float64
+	var terceiro float64
+	fmt.Println("Insira seu primeiro número")
+	fmt.Scan(&primeiro)
+	fmt.Println("Insira seu segundo número")
+	fmt.Scan(&segundo)
+	fmt.Println("Insira seu terceiro número")
+	fmt.Scan(&terceiro)
+	var media = (primeiro*2+segundo*3+terceiro*5)/2 + 3 + 5
+	fmt.Println("Sua média ponderada é", media)
+
+}
