@@ -1,0 +1,18 @@
+Faça um algoritmo que leia um número inteiro e mostre o seu dobro, triplo e quadruplo.
+
+package main
+
+import "fmt"
+
+func main() {
+	var numero int64
+	fmt.Println("Informe seu número")
+	fmt.Scan(&numero)
+	var dobro = numero * 2
+	var triplo = numero * 3
+	var quadruplo = numero * 4
+	fmt.Println("O dobro é", dobro)
+	fmt.Println("O triplo é", triplo)
+	fmt.Println("O quadruplo é", quadruplo)
+
+}
