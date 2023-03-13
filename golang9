@@ -1,0 +1,14 @@
+Faça um algoritmo que leia o preço de um produto e mostre o seu valor com desconto de 10%.
+
+package main
+
+import "fmt"
+
+func main() {
+	var preco float64
+	var desconto = preco - (preco * 0.10)
+	fmt.Println("Quanto custa esse produto?")
+	fmt.Scan(&preco)
+	fmt.Println("Com um desconto de 10% esse produto custa", desconto)
+
+}
