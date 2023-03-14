@@ -1,0 +1,15 @@
+Faça um algoritmo que leia o peso de uma pessoa em quilos e converta para libras.
+
+package main
+
+import "fmt"
+
+func main() {
+	var quilo float64
+	fmt.Println("Digite o seu peso em quilogramas")
+	fmt.Scan(&quilo)
+	var converterQl float64
+	converterQl = quilo * 2.205
+	fmt.Println("Seu peso em libras é", converterQl)
+
+}
