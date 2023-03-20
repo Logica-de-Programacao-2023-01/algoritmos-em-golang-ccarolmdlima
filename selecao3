@@ -1,0 +1,17 @@
+Faça um algoritmo que leia um número inteiro e mostre se ele é par ou ímpar.
+
+package main
+
+import "fmt"
+
+func main() {
+	var x int
+	fmt.Println("Digite seu número")
+	fmt.Scan(&x)
+
+	if x%2 == 0 {
+		fmt.Println("Seu número é par")
+	} else {
+		fmt.Println("Seu número é ímpar")
+	}
+}
