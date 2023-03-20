@@ -1,0 +1,27 @@
+Faça um algoritmo que leia três números inteiros e mostre o menor deles.
+
+package main
+
+import "fmt"
+
+func main() {
+	x := 8
+	y := 12
+	z := 21
+
+	if x < y {
+		fmt.Println("x é menor que y")
+	} else if x < z {
+		fmt.Println("x é menor que z")
+
+	} else if y < x {
+		fmt.Println("y é menor que x")
+	} else if y < z {
+		fmt.Println("y é menor que z")
+
+	} else if z < y {
+		fmt.Println("z é menor que y")
+	} else if z < x {
+		fmt.Println("z é menor que x")
+	}
+}
