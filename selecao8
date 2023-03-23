@@ -1,0 +1,12 @@
+Faça um algoritmo que leia um número inteiro entre 1 e 7 e mostre o dia da semana correspondente (1 = domingo, 2 = segunda-feira, etc.).
+
+package main
+import "fmt"
+
+func main() {
+  semanas := []string{"domingo", "segunda", "terça", "quarta", "quinta", "sexta", "sábado"}
+  
+  for index, semana := range semanas {
+      fmt.Println("O número e a semana correspondem", index, semana)
+  }
+}
