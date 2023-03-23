@@ -1,0 +1,23 @@
+Faça um algoritmo que leia a idade de uma pessoa e mostre a sua classificação, de acordo com a seguinte tabela:
+até 9 anos: mirim
+10 a 13 anos: infantil
+14 a 17 anos: juvenil
+maiores de 18 anos: adulto
+
+package main
+import "fmt"
+
+func main() {
+  var idade int
+  fmt.Println("Digite sua idade")
+  fmt.Scan(&idade)
+  if idade <= 9 {
+      fmt.Println("A sua classificação é mirim")
+  } else if (10 <= idade) && (idade <= 13) {
+      fmt.Println("Sua classificação é infantil")
+  } else if (14 <= idade) && (idade <= 17) {
+      fmt.Println("Sua classificação é juvenil")
+  } else if 18 <= idade {
+      fmt.Println("Sua classificação é adulto")
+  }
+}
