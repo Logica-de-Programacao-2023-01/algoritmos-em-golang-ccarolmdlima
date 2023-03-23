@@ -1,0 +1,29 @@
+Faça um algoritmo que leia três números reais e mostre-os em ordem crescente.
+
+package main
+import "fmt"
+
+func main() {
+  var a int
+  var b int
+  var c int
+  fmt.Println("Escreva seu primeiro número")
+  fmt.Scan(&a)
+  fmt.Println("Escreva seu segundo número")
+  fmt.Scan(&b)
+  fmt.Println("Escreva seu terceiro número")
+  fmt.Scan(&c)
+  if (a > b) && (b >= c) {
+      fmt.Println("A ordem crescente é ", c, b, a)
+  } else if (b >= a) && (b > c) && (a >= c) {
+      fmt.Println ("A ordem crescente é", c, a, b)
+  } else if (b > a) && (b >= c) && (a <= c) {
+      fmt.Println ("A ordem crescente é", a, c, b)
+  } else if (b > a) && (b <= c) {
+      fmt.Println ("A ordem crescente é", a, b, c)
+  } else if (b < a) && (a < c) {
+      fmt.Println ("A ordem crescente é", b, a, c)
+  } else if (b < c) && (c <= a) {
+      fmt.Println ("A ordem crescente é", b, c, a)
+  }
+}
