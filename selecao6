@@ -1,0 +1,19 @@
+Faça um algoritmo que leia dois números inteiros e mostre o resultado da multiplicação entre eles, se ambos forem positivos; ou a soma, se pelo menos um deles for negativo.
+
+package main
+import "fmt"
+
+func main() {
+  var um int
+  var dois int
+  fmt.Println("Digite o seu primeiro número")
+  fmt.Scan(&um)
+  fmt.Println("Digite o seu segundo número")
+  fmt.Scan(&dois)
+  var multiplicacao = um * dois
+  if multiplicacao >= 0 {
+    fmt.Println("O seu resultado é", multiplicacao)
+} else {
+    fmt.Println("O seu resultado é negativo")
+}
+}
