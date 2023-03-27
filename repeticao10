@@ -1,0 +1,21 @@
+Faça um algoritmo que leia vários números inteiros e mostre o maior deles. A leitura deve ser interrompida quando for lido o valor zero.
+
+package main
+import "fmt"
+
+func main() {
+  var maior, x int
+  
+  fmt.Println("Digite um número:")
+  fmt.Scan(&x)
+  
+  maior = x
+  
+  for x != 0 {
+      fmt.Println("Digite um número:")
+      fmt.Scan(&x)
+      if x > maior {
+         maior = x
+      }
+  
+  fmt.Println("O maior é", maior)
