@@ -1,0 +1,17 @@
+Faça um algoritmo que leia vários números inteiros e mostre a média aritmética entre eles. A leitura deve ser interrompida quando for lido o valor zero.
+
+package main
+import "fmt"
+
+func main() {
+  var soma, quantidade, x int
+  
+  
+  fmt.Println("Digite seu número:")
+  fnt.Scan(&x)
+  
+  if x 
+  soma = soma + x
+  
+  
+  for x != 0 {
