@@ -7,11 +7,20 @@ func main() {
   var soma, quantidade, x int
   
   
-  fmt.Println("Digite seu número:")
-  fnt.Scan(&x)
+  fmt.Println("Digite vários números inteiros (0 para sair):")
+  for {
+    fmt.Scan(&x)
+    if x == 0 {
+        break
+    }
+    soma += x
+    quantidade++
+  }
   
-  if x 
-  soma = soma + x
-  
-  
-  for x != 0 {
+  if quantidade > 0 {
+      media := float64(soma) / float64(quantidade)
+      fmt.Println("A média dos números é:", media)
+  } else {
+      fmt.Println("Nenhum número foi digitado")
+  }
+}
