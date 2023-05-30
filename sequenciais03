@@ -1,5 +1,3 @@
-Faça um algoritmo que leia o peso e a altura de uma pessoa e calcule o seu IMC (Índice de Massa Corporal).
-
 package main
 
 import "fmt"
