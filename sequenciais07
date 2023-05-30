@@ -1,5 +1,3 @@
-Faça um algoritmo que leia um número inteiro e mostre o seu sucessor e antecessor.
-
 package main
 
 import "fmt"
