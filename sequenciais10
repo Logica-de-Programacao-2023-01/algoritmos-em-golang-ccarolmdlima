@@ -1,5 +1,3 @@
-Faça um algoritmo que leia o peso de uma pessoa em quilos e converta para libras.
-
 package main
 
 import "fmt"
