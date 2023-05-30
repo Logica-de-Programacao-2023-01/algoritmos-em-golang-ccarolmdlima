@@ -1,5 +1,3 @@
-Faça um algoritmo que leia vários números inteiros e mostre a média aritmética entre eles. A leitura deve ser interrompida quando for lido o valor zero.
-
 package main
 import "fmt"
 
