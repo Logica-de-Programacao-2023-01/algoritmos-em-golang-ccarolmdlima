@@ -1,5 +1,3 @@
-Faça um algoritmo que leia dois números inteiros e mostre o resultado da multiplicação entre eles, se ambos forem positivos; ou a soma, se pelo menos um deles for negativo.
-
 package main
 import "fmt"
 
