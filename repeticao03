@@ -1,5 +1,3 @@
-Faça um algoritmo que imprima os números ímpares de 1 a 19.
-
 package main
 import "fmt"
 
