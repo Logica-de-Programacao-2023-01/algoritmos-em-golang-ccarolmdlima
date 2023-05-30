@@ -1,5 +1,3 @@
-Faça um algoritmo que leia um número inteiro e mostre o seu dobro, triplo e quadruplo.
-
 package main
 
 import "fmt"
