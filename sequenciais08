@@ -1,5 +1,3 @@
-Faça um algoritmo que leia o número de dias trabalhados por um funcionário e o valor da sua diária e calcule o seu salário.
-
 package main
 
 import "fmt"
